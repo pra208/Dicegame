@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Dice</title>
+    <link rel="stylesheet" href="./dicegame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One&family=Racing+Sans+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c63937ee49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <main>
+        <div id="cont">
+            <h1 id="heading">Welcome to Lucky Dice ABCDEFGHIJKL</h1>
+            <p id="stake">Stake: 500</p>
+            <div id="sum">
+                <div>
+                    <i class="fa-solid fa-square"></i>
+                        <h4 id="sumplayer">1</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square"></i>
+                        <h4 id="sumcomp">1</h4>
+                </div>
+            </div>
+            <div id="playercomp">
+                <div id="player">
+                    <h3 id="playername">ABCDEFGHIJKL</h3>
+                    <div>
+                    <div>
+                        <i class="fa-solid fa-square"></i>
+                        <h4 id="pd1">1</h4>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-square"></i>
+                        <h4 id="pd2">1</h4>
+                    </div>
+                     </div>
+                    <button onclick="rolldice()">Roll Dice</button>
+                </div>
+                <div id="comp">
+                    <h3>Computer</h3>
+                    <div>
+                    <div>
+                        <i class="fa-solid fa-square"></i>
+                        <h4 id="cd1">1</h4>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-square"></i>
+                        <h4 id="cd2">1</h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <p id="res">ABCDEFGHIKJL Won Rs.500</p>
+
+
+        </div>
+    </main>
+
+    <script src="./dicegame.js"></script>
+    
+</body>
+</html>

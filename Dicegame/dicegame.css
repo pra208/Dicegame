@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/dicebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main #cont{
+    background-color: rgba(255, 255, 255, 0.888);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 5px;
+}
+main h1{
+    text-align: center;
+    color: black;
+    text-shadow:  gainsboro 2px 2px 5px;
+    letter-spacing: 2px;
+    
+    
+}
+main h3{
+    text-shadow:  gainsboro 1px 1px 1px;
+}
+main #stake{
+    font-size: x-large;
+    text-shadow:  gainsboro 1px 1px 1px;
+}
+main #sum{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+#sum div{
+   width: 50%;
+   
+   
+
+}
+.fa-solid.fa-square{
+    font-size: 7.5vh;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: rgb(250, 221, 1);
+    text-shadow: black 2px 2px 2px;
+    position: relative;
+    
+    
+}
+h4{
+    font-size: xx-large;
+    position: absolute;
+    font-weight:900;
+    
+}
+
+main #playercomp{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#player{
+    width: 50%;
+}
+#playercomp h3{
+    font-size: x-large;
+    text-align: center;
+}
+#player div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#comp{
+    width: 50%;
+}
+#comp div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#player button{
+    display: block;
+    
+    width: 30%;
+    margin: auto;
+    margin-top: 3rem;
+    height: 5vh;
+    background-color: black;
+    box-shadow:rgb(250, 221, 1) 2px 2px 3px ;
+    color: rgb(250, 221, 1);
+    font-family: 'Lobster',cursive;
+    font-size: x-large;
+    border-radius: 5px;
+}
+#player button:active{
+    background-color: white;
+    color: black;
+}
+#res{
+    background-color: black;
+    color: rgb(250, 221, 1);
+    margin-top: 3rem;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0.5rem;
+    box-shadow:rgb(250, 221, 1) 2px 2px 5px ;
+    letter-spacing: 2px;
+}
+#sumplayer{
+    top: 28.1%;
+    left: 35.8%;
+}
+#sumcomp{
+    top: 28.1%;
+    right: 38%;
+}
+#pd1{
+    top: 46%;
+}
+#pd2{
+    top: 46%;
+}
+#cd1{
+    top:46%;
+}
+#cd2{
+    top:46%;
+}
+
+
+
